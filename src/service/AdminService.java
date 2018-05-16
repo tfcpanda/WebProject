@@ -5,18 +5,23 @@ import java.util.List;
 import entity.Admin;
 
 public interface AdminService {
-	
-	//登录方法
-		public boolean login(Admin admin) throws Exception;
-		//查询方法
-		public List<Admin> show() throws Exception;
-		//添加方法 
-		public void insert(Admin admin) throws Exception;
-		//删除方法
-		public void delete(int id) throws Exception;
-		//按ID查询单条记录
-		public List edit(int id) throws Exception;
-		//更新方法
-		public void editdo(Admin admin)throws Exception;
+
+	// 鐧诲綍鏂规硶
+	public boolean login(Admin admin) throws Exception;
+
+	// 鏌ヨ鍏ㄩ儴
+	public List<Admin> show() throws Exception;
+
+	// 娣诲姞鏂规硶
+	public void insert(Admin admin) throws Exception;
+
+	// 鍒犻櫎鏂规硶
+	public void delete(int id) throws Exception;
+
+	// 鏍规嵁ID鏌ヨ鏂规硶
+	public List edit(int id) throws Exception;
+
+	// 缂栬緫鏂规硶
+	public void editdo(Admin admin) throws Exception;
 
 }

@@ -2,39 +2,45 @@ package entity;
 
 public class Admin {
 	/*
-	 * ÉèÖÃË½ÓĞÊôĞÔ
+	 * åˆ›å»ºå±æ€§
 	 */
 	private int id;
 	private String name;
 	private String password;
+
 	/*
-	 * ÉèÖÃget set·½·¨
+	 * get setæ–¹æ³•
 	 */
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public String getPassword() {
 		return password;
 	}
+
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	/*
-	 * ÉèÖÃToString·½·¨
+	 * ToStringæ–¹æ³•
 	 */
 	@Override
 	public String toString() {
 		return "Admin [id=" + id + ", name=" + name + ", password=" + password + "]";
 	}
-	
-}
 
+}
