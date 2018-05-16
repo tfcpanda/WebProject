@@ -111,9 +111,6 @@ public class HiberateTest {
 				+" WHERE a.id = ?";
 		Query query = session.createQuery(hql);
 		//2.绑定参数
-		query.setInteger(0, 24);
-		List houses = query.list();
-		System.out.println(houses);
 	}
 
 	
